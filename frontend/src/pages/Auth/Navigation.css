@@ -1,0 +1,75 @@
+#navigation-container {
+  width: 4%;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden; /* Hide overflowing content during transition */
+  background-color: #EBC7C4; /* Chỉnh màu nền */
+}
+
+#navigation-container:hover {
+  width: 15%;
+  background-color: #f3e1e1; /* Chỉnh màu nền khi hover */
+}
+
+.nav-item-name {
+  display: none;
+  transition: opacity 0.2s ease-in-out; /* Add opacity transition */
+  color: #59382C; /* Màu chữ cho các mục */
+}
+
+#navigation-container:hover .nav-item-name {
+  display: block;
+  opacity: 1;
+}
+
+.search-input {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out; /* Add opacity transition */
+}
+
+#navigation-container:hover .search-input {
+  display: block;
+  opacity: 1;
+}
+
+#navigation-container:hover .search-icon {
+  display: none;
+  transition: opacity 0.2s ease-in-out; /* Add opacity transition */
+}
+
+/* Màu sắc cho các icon khi hover */
+#navigation-container .transition-transform:hover {
+  color: #e3b6a2; /* Màu của các icon khi hover */
+}
+
+#navigation-container a {
+  color: white; /* Màu chữ cho các liên kết */
+}
+
+#navigation-container a:hover {
+  color: #e3b6a2; /* Màu chữ cho các liên kết khi hover */
+}
+
+#navigation-container ul li a:hover {
+  background-color: #EBC7C4; /* Màu nền cho mục khi hover */
+}
+
+#navigation-container ul li button:hover {
+  background-color: #EBC7C4; /* Màu nền cho nút khi hover */
+}
+
+#navigation-container {
+  transition: width 0.3s ease-in-out;
+}
+
+#navigation-container.admin {
+  width: 15%;
+}
+
+#navigation-container.user {
+  width: 4%;
+}
+
+#navigation-container.user:hover {
+  width: 15%;
+}

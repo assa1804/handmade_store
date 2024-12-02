@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F7F2EC;
+  color: black;
+}
+
+input,
+textarea {
+  color: #000; /* Màu chữ đen cho input và textarea */
+}

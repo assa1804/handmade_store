@@ -1,0 +1,113 @@
+.footer {
+  background-color: #EBC7C4;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #59382C;
+  margin-left: 60px;
+}
+
+.footer-logo {
+  flex: 1;
+  max-width: 250px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-logo span {
+  display: block;
+  font-size: 12px;
+  color: #59382C;
+  margin-top: 5px;
+}
+
+.contact-info {
+  flex: 2;
+  max-width: 300px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.footer-links {
+  flex: 3;
+  display: flex;
+  justify-content: space-around; /* Thay đổi từ space-between thành space-around */
+  flex-wrap: wrap;
+  gap: 10px; /* Khoảng cách giữa các cột */
+}
+
+.footer-links div {
+  flex: 1;
+  max-width: 120px; /* Giảm độ rộng tối đa của mỗi cột */
+  margin-bottom: 20px;
+}
+
+.footer-links div h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+  color: #59382C;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #59382C;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #1E151C;
+}
+
+.tags {
+  flex: 1;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.tags h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tags .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags .tag-list span {
+  padding: 5px 10px;
+  border: 1px solid #ffb6cb;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #59382C;
+  background-color: #ffe8ef;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.tags .tag-list span:hover {
+  background-color: #ffb6cb;
+  color: #1E151C;
+}

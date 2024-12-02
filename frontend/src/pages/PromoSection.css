@@ -1,0 +1,114 @@
+.promotion-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6";
+  gap: 15px;
+  
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.promotion-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+  position: relative;
+}
+
+.promo-content  {
+  flex: 1;
+  padding-right: 20px;
+  
+}
+
+.promo-image {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.promotion-item:hover .promo-image {
+  transform: scale(1.05);
+}
+
+.promotion-item h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #59382C;
+}
+
+.promotion-item p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.promotion-item button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #e5a8b1;
+  color: #59382C;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.promotion-item button:hover {
+  background-color: #d9a7a4;
+}
+
+.promotion-item span {
+  color: #FF5A5F;
+  font-weight: bold;
+}
+
+/* Specific styles for smaller items */
+.item-3 {
+  grid-area: item3;
+  background-color: #f2d6c9;
+  grid-column: span 1;
+}
+
+.item-4 {
+  grid-area: item4;
+  background-color: #FFECDA;
+  grid-column: span 1;
+}
+
+.item-1 {
+  grid-area: item1;
+  background-color: #edcfd3;
+  grid-column: span 2;
+}
+
+.item-2 {
+  grid-area: item2;
+  background-color: #cfe6b9;
+  grid-column: span 2;
+}
+
+.item-5 {
+  grid-area: item5;
+  background-color: #e3d5ca;
+  grid-column: span 2;
+}
+
+.item-6 {
+  grid-area: item6;
+  background-color: #FFFFD8;
+  grid-column: span 2;
+}
+

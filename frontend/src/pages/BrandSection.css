@@ -1,0 +1,19 @@
+.brand-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .brand-section img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .brand-section img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    object-fit: cover; /* Ensures the image covers the area */
+    border-radius: 50%; /* Makes the images round */
+    margin: 10px; /* Adds space between the images */
+  }

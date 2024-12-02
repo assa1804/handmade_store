@@ -1,0 +1,27 @@
+.newsletter-signup {
+    background-color: #f3e1e1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newsletter-signup h2 {
+    margin-bottom: 10px;
+    color: #59382C;
+  }
+  
+  .newsletter-signup input {
+    padding: 8px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #EBC7C4;
+  }
+  
+  .newsletter-signup button {
+    padding: 8px 16px;
+    background-color: #EBC7C4;
+    color: #59382C;
+    border: none;
+    cursor: pointer;
+  }
+  
